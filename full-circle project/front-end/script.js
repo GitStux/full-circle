@@ -18,7 +18,7 @@ myForm.onsubmit = (event) => {
     })
 
     //Send this employee to POST to CRUD
-    axios.post('https://crud-demo-ns.herokuapp.com/employees', {
+    axios.post('https://crud-demo-mj.herokuapp.com/employees', {
             fName,
             lName,
             email,
